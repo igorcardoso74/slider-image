@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image slider</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="Porto1.jpeg" alt="" id="content1" clas="active"/>
+            <img src="Porto2.jpeg" alt="" id="content2"/>
+            <img src="Porto3.jpeg" alt="" id="content3"/>
+        </div>
+        <div class="btn-container">
+            <button onclick="btn(1)"></button>
+            <button onclick="btn(2)"></button>
+            <button onclick="btn(3)"></button>
+        </div>
+        <button id="prev" onclick="prev()"><</button>
+        <button id="next" onclick="next()">></button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
